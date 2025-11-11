@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "6eeb22ad3c8852e57d02d38d4f798b66de134d1a7b3d9961a31e79c00c37b3be"
+hash = "2c31d52ada2aec45150617516523aaae57f30df0f8bb1ef1115e1825e5a89759"
 metafile = true
 
 [[files]]
@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "336bea7fbe2bbbae3875ac59dbc0d11a7f1eb247a5f23e951c136bcd952a6086"
+hash = "cbda4f1881cfb9f054395a3db225df4202d1f2e7bd0ed27d803b837fcf728621"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/gputape.pw.toml"
-hash = "8c62cf20a7332b7256386d7d45b64d0b37662420c2d61518a3a9fdf91455fd07"
+hash = "df30e55e469ea6d4bdf8a19c44915f0062f5e9c62b5e21117bbd317821b752bf"
 metafile = true
 
 [[files]]
@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonrise-opt.pw.toml"
-hash = "a8be12246e31742678edf1109f2545676cfe395227a3aa97e1a5efa3670f3223"
+hash = "6b496c6017d3256f203fa8bbfeab1aa0763122a66e9f7808801272b305b8b1a2"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "e8c961dbadf2dde334c857d0b42a6c6452aa77a146cf80d4febf7f46e4ac2ef6"
+hash = "279ea1bb4b776be9176fe34416e2132e37abfce4483def54177091cc0f2faade"
 metafile = true
 
 [[files]]
