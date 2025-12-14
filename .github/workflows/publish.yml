@@ -39,6 +39,13 @@ jobs:
           file: pack.toml
           field: versions.minecraft
 
+      - name: Get Commit Message
+        id: commit_msg
+        run: |
+          echo "body<<EOF" >> $GITHUB_OUTPUT
+          git log -1 --pretty=%b >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -53,7 +60,10 @@ jobs:
           modrinth-featured: true
           modrinth-unfeature-mode: subset
           modrinth-version: ${{ steps.pack_version.outputs.value }}
-          modrinth-version-type: release
+          modrinth-version-type: alpha # Change as needed: alpha, beta, release
+
+          github-tag: ${{ steps.pack_version.outputs.value }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
           name: 'Vanilla Reimagined ${{ steps.pack_version.outputs.value }}'
           files: '*.mrpack'
@@ -61,12 +71,4 @@ jobs:
             fabric
           game-versions: |
             ${{ steps.pack_minecraft.outputs.value }}
-
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2.4.1
-        with:
-          files: "Vanilla Reimagined-*.mrpack"
-          name: 'Vanilla Reimagined ${{ steps.pack_version.outputs.value }}'
-          tag_name: ${{ steps.pack_version.outputs.value }}
-          generate_release_notes: true
-          token: ${{ secrets.GITHUB_TOKEN }}
+          changelog: ${{ steps.commit_msg.outputs.body }}
