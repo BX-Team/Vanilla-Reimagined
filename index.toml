@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "b72d00d529ec694ae354b73f6b36d4ec2b830c60c05cc31f46d00ac7ddf8a26b"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "72f3dbfcfbf16d8437d865b090c4338cf32de86f290e8e8dde5626cb301bb4c7"
 metafile = true
@@ -11,8 +16,18 @@ hash = "3a96a1e5bef30c16a8738c2a8acf54693225122424c39fa06f589a11ccc83b90"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "d3e263880c1393d7e8233979a19f97ff9cc40e2100d7a61495a5f7ef109ecf0e"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "6adf5f512651c200a320219c32a3a51c8b95e219206f64b99cb93940d51b2cfa"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "09d9bcf41357ee2baf28a26418bc1ed5d68ad7044252e976081295bde8dddb2e"
 metafile = true
 
 [[files]]
@@ -22,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "d7c055f277c1751122d9abc5f09015e629699e04a9383cd0c666b33436293079"
+hash = "61afd7af5c645ffd966b2bd86be944eacd1e48a8044e8f67082225d4d9989f0c"
 metafile = true
 
 [[files]]
@@ -32,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
-hash = "561b50ac341de37cd308f3b140141d3a5a51fb43a3855122643c037e21e23ef3"
+hash = "b22f1d052eee2810fda73d850dd6f425a1214965e03a5a9dada421abfe74603b"
 metafile = true
 
 [[files]]

@@ -63,6 +63,7 @@ jobs:
           modrinth-version-type: alpha # Change as needed: alpha, beta, release
 
           github-tag: ${{ steps.pack_version.outputs.value }}
+          github-prerelease: true
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
           name: 'Vanilla Reimagined ${{ steps.pack_version.outputs.value }}'
