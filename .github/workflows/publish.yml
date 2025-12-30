@@ -60,7 +60,7 @@ jobs:
           modrinth-featured: true
           modrinth-unfeature-mode: subset
           modrinth-version: ${{ steps.pack_version.outputs.value }}
-          modrinth-version-type: alpha # Change as needed: alpha, beta, release
+          modrinth-version-type: beta # Change as needed: alpha, beta, release
 
           github-tag: ${{ steps.pack_version.outputs.value }}
           github-prerelease: true
