@@ -1,12 +1,12 @@
 name = "Vanilla Reimagined"
 author = "BX Team"
-version = "1.21.11-1.0.5"
+version = "1.21.11-1.0.6"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "f17cd835ec0dfbe8618caadf545309a0d283cea4cea3845acd92dc0e9c0faf70"
+hash = "729c67ff00ad5dd2900b2d29b7b403b66d10e5db4e0a65a624dff14bd10de7c9"
 
 [versions]
 fabric = "0.18.4"
