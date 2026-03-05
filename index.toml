@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "7e1f5788188341d69aa19bb057065d451fab494d002f96a1d92dbf5d7f3b5d2d"
+hash = "7a304e1dd8fdc4ab7fb695e661547ceb951b1aa4a20ae397852c64a3d9408683"
 metafile = true
 
 [[files]]
@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "6085d2f0a5deabc026667492ac344d9b9007c80ccadb3f916fe9b0ec3037f022"
+hash = "d2551922e217952f0bcc574427916b2c3f8e27b145532a2469f407285004b596"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "276947b1f9933ca2220a00736aba177e4034ca9a45cad9f258abf762fdb3bb0b"
+hash = "38c950bdd47f54d586d1e9ae0c714574885423941ed7799f11b776d2b05ed02f"
 metafile = true
 
 [[files]]
@@ -82,12 +82,12 @@ metafile = true
 
 [[files]]
 file = "mods/moonrise-opt.pw.toml"
-hash = "c40a3498aa0c1bdb091b327b414c4adabe8618f1fc9a75614800c9fefef12977"
+hash = "7ab10cdea863342c077055b1d1383c5a002e3017191efffe813d0e72c692fe80"
 metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "0544fefc6f04f2b408b2c6b4dd3e4bf7d0a4048f1fad6ddf63357549d7446165"
+hash = "e4b9192ce7f54715dde7eb682ebab23aaaac10658b1bd08ba553a5f99b0124d1"
 metafile = true
 
 [[files]]
@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "9d340481c374a20067d1748c1a4991626bce9d7812f0bdb96072cd7a15d35462"
+hash = "0b4c98b7b25cdfcbb7882c32155d597f0fcaa37aa301b14baf4ad8cab65fea85"
 metafile = true
 
 [[files]]
