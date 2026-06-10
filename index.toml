@@ -11,6 +11,11 @@ hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
 metafile = true
 
 [[files]]
+file = "mods/continuity.pw.toml"
+hash = "c7e5c4ae7f25c1954a2327f5dd1edece3ba9dc07039d39bc9beb435e4a18bf82"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "42f5637a87150687969d64b172ce8ef91bc3a92ee2eb68a2a17153350ff92b4b"
 metafile = true
