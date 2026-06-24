@@ -19,11 +19,11 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v6
         with:
-          go-version: 'stable'
+          go-version: "stable"
 
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
-      
+
       - name: Export modpack
         run: packwiz modrinth export
 
@@ -63,14 +63,14 @@ jobs:
           modrinth-featured: true
           modrinth-unfeature-mode: subset
           modrinth-version: ${{ steps.pack_version.outputs.value }}
-          modrinth-version-type: release # Change as needed: alpha, beta, release
+          modrinth-version-type: beta # Change as needed: alpha, beta, release
 
           github-tag: ${{ steps.pack_version.outputs.value }}
           github-prerelease: false
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-          name: 'Vanilla Reimagined ${{ steps.pack_version.outputs.value }}'
-          files: '*.mrpack'
+          name: "Vanilla Reimagined ${{ steps.pack_version.outputs.value }}"
+          files: "*.mrpack"
           loaders: |
             fabric
           game-versions: |
